@@ -1,0 +1,64 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directory
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore Jupyter Notebook output and metadata
+*.ipynb_convert/
+*.nbconvert.ipynb
+*.nbconvert/
+*.ipynb_checkpoints/
+*.nb.html
+*.nb.py
+
+# Ignore distribution and packaging files
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore editor specific files
+*.swp
+*.swo
+*.swn
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.orig
+
+# Ignore mypy type check report
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore coverage report
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Ignore pytest cache
+.pytest_cache/
